@@ -1,0 +1,32 @@
+@import "mixins";
+
+.navbar {
+  background-color: var(--bg-nav-color);
+  .navbar-nav {
+    a {
+      color: #000;
+      font-size: 1.2rem;
+      @include white_hover;
+    }
+    li {
+      .dropdown-menu {
+        @extend .navbar;
+        & a:hover {
+          @extend .dropdown-menu;
+        }
+      }
+    }
+    .nav-item {
+      margin: 0 10px 0 10px;
+    }
+  }
+  .navbar-light .navbar-toggler {
+    border-color: rgba(0, 0, 0, 0.7);
+  }
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}

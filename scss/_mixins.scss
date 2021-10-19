@@ -1,0 +1,6 @@
+@mixin white_hover {
+  &:hover,
+  &:focus {
+    color: #fff;
+  }
+}

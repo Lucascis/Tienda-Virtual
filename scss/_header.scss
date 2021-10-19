@@ -1,0 +1,24 @@
+@import "menu";
+
+header {
+  background-color: #000;
+  position: sticky;
+  top: 0px;
+  z-index: 3;
+  .logo {
+    text-align: center;
+    .logo__enlace {
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      color: white;
+      .logo__enlace-texto {
+        margin: 0;
+      }
+      .logo__enlace-imagen {
+        width: 4rem;
+        margin-top: 0.2rem;
+      }
+    }
+  }
+}
