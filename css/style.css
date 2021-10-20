@@ -321,6 +321,11 @@ header .logo .logo__enlace .logo__enlace-imagen {
   margin-top: 0.2rem;
 }
 
+img.d-block.w-100 {
+  width: 100%;
+  height: 100%;
+}
+
 body {
   background-image: linear-gradient(to top, #f3f3f3 0%, #fff 100%);
 }
