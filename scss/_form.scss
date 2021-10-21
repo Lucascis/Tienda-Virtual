@@ -1,7 +1,7 @@
 // Formulario de contacto
 .form {
   width: 90%;
-  height: 420px;
+  height: 480px;
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
   box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.4);
@@ -40,9 +40,9 @@
     }
   }
   button {
-    float: right;
     padding: 0.5rem 0.5rem;
-    margin: 1rem 2rem 0;
+    margin: 1.5rem auto;
+    display:block;
     border: 1.5px solid #000;
     background: 0;
     color: black;
