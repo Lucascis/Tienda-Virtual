@@ -81,7 +81,7 @@ header .logo .logo__enlace {
   text-decoration: none;
   display: inline-flex;
   align-items: center;
-  color: white;
+  color: #fff;
 }
 
 header .logo .logo__enlace .logo__enlace-texto {
@@ -90,6 +90,7 @@ header .logo .logo__enlace .logo__enlace-texto {
 
 header .logo .logo__enlace .logo__enlace-imagen {
   width: 4rem;
+  height: 4rem;
   margin-top: 0.2rem;
 }
 
@@ -319,6 +320,7 @@ header .logo .logo__enlace .logo__enlace-imagen {
 
 .footer .footer__logo .footer__logo-enlace .footer__logo-enlace-imagen {
   width: 4rem;
+  height: 4rem;
   margin-top: 0.2rem;
 }
 

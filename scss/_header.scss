@@ -11,12 +11,13 @@ header {
       text-decoration: none;
       display: inline-flex;
       align-items: center;
-      color: white;
+      color: #fff;
       .logo__enlace-texto {
         margin: 0;
       }
       .logo__enlace-imagen {
         width: 4rem;
+        height: 4rem;
         margin-top: 0.2rem;
       }
     }
