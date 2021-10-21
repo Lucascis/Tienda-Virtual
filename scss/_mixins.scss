@@ -1,6 +1,6 @@
-@mixin white_hover {
+@mixin black_hover {
   &:hover,
   &:focus {
-    color: #fff;
+    color: #000;
   }
 }
