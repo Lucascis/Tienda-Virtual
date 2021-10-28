@@ -336,6 +336,44 @@ img.d-block.w-100 {
   height: 100%;
 }
 
+.page404 {
+  background-image: url(/img/broken_joystick.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+}
+
+.page404 h1 {
+  padding: 2rem;
+  text-align: center;
+  font-size: 4rem;
+}
+
+.page404 .text404 {
+  position: absolute;
+  height: 150px;
+  width: 200px;
+  left: 55%;
+  top: 70%;
+  text-align: center;
+}
+
+.page404 .text404 h2 {
+  color: #fff;
+  font-size: 4vh;
+}
+
+.page404 .text404 p {
+  color: #fff;
+}
+
+.page404 .text404 a {
+  color: #de0909;
+  font-size: 1.5rem;
+}
+
 body {
   background-image: linear-gradient(to top, #f3f3f3 0%, #fff 100%);
 }
